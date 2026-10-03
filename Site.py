@@ -15,7 +15,7 @@ st.sidebar.write("## Cadastrar venda")
 
 data = st.sidebar.date_input("Data")
 vendedor = st.sidebar.selectbox("Vendedor", ["Vendedor"])
-produto = st.sidebar.selectbox("Produto", ["Notebook", "Celular", "Fone"])
+produto = st.sidebar.selectbox("Produto", ["Notebook", "Celular", "Fone", "outros"])
 quantidade = st.sidebar.number_input("Quantidade", step=1)
 valor = st.sidebar.number_input("Valor")
 botao = st.sidebar.button("Cadastrar venda")
