@@ -14,7 +14,7 @@ tabela = pd.read_csv("vendas.csv")
 st.sidebar.write("## Cadastrar venda")
 
 data = st.sidebar.date_input("Data")
-vendedor = st.sidebar.selectbox("Vendedor", ["Otoniel", "Eliel", "Julia"])
+vendedor = st.sidebar.selectbox("Vendedor", ["Vendedor"])
 produto = st.sidebar.selectbox("Produto", ["Notebook", "Celular", "Fone"])
 quantidade = st.sidebar.number_input("Quantidade", step=1)
 valor = st.sidebar.number_input("Valor")
